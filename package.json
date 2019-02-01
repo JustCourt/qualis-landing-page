@@ -48,7 +48,8 @@
     "lint": "gulp eslint",
     "serve:prod": "NODE_ENV=development gulp serve",
     "serve": "NODE_ENV=production gulp serve --production",
-    "build": "NODE_ENV=production gulp --production"
+    "build": "NODE_ENV=production gulp --production",
+	"start": "gulp"
   },
   "engines": {
     "node": ">=0.12.0"
